@@ -1,4 +1,4 @@
-import { useGlobalContext } from "./contextGlobal";
+import { useGlobalContext } from "./ContextGlobal";
 
 const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext();
